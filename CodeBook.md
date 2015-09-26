@@ -1,19 +1,21 @@
 # Code Book for UCI HAR Dataset
 
-**TODO: Most of this**
+This code book describes the variables, data, and transformations that were performed on the Human Activity Recognition Using Smartphones Dataset, downloaded from the following URL:
 
-This code book describes the variables, data, and transformations that were performed on the Human Activity Recognition Using Smartphones Dataset, downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. Careful readers of this code book should be able to both understand the raw data and replicate the processes used to transform the data for the final tidy data set.
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Careful readers of this code book should be able to both understand the raw data and replicate the processes used to transform the data for the final tidy data set.
 
 ## Upstream provided documentation
 
-The Human Activity Recognition Using Smartphones Dataset comes with ample documentation that describes the initial state of the data as provided. The most significant documentation is:
+The Human Activity Recognition Using Smartphones Dataset zip archive comes with ample documentation that describes the initial state of the data as provided. The most significant documentation is:
 
   * README.txt : An index of all the files provided in the zip archive, a brief description of each, and the license terms of the data set.
   * features_info.txt : Describes the naming conventions for all the measurements observed, and how to decode them.
   * activity_labels.txt: Maps the activity codes to a proper English name
   * features.txt : A list of all the measurements captured.
 
-## Script: run_analysis.R
+## Analysis script: run_analysis.R
 
 `run_analysis.R` performs all the neccessary retrieval, extraction, and transformations on the given dataset. It does have one non-standard library dependency, `dplyr`, used to create the final tidy dataset. Also note that this script has been only tested on a Windows platform, so minor changes to the workding directory pathname are likely required for other operating systems.
 
