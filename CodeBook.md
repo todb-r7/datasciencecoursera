@@ -17,7 +17,7 @@ The Human Activity Recognition Using Smartphones Dataset zip archive comes with 
 
 ## Analysis script: run_analysis.R
 
-`run_analysis.R` performs all the neccessary retrieval, extraction, and transformations on the given dataset. It does have one non-standard library dependency, `dplyr`, used to create the final tidy dataset. Also note that this script has been only tested on a Windows platform, so minor changes to the workding directory pathname are likely required for other operating systems.
+`run_analysis.R` performs all the neccessary retrieval, extraction, and transformations on the given dataset. It does have one non-standard library dependency, `dplyr`, used to create the final tidy dataset. Also note that this script has been only tested on a Windows platform, so minor changes to the working directory pathname are likely required for other operating systems.
 
 ## Transformations
 
